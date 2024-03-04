@@ -130,6 +130,16 @@
       opacity: 0;
       transform: translateY(100px);
     }
+
+
+    @media screen and (max-width: 767px) {
+      .font-kd-xs-60{
+        font-size: 60px;
+      }
+      .font-kd-xs-25{
+        font-size: 25px;
+      }
+    }
     
     
     
