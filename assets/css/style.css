@@ -158,10 +158,12 @@ body {
 
 .font-kd-100 {
   font-size: 100px;
+  line-height: 90px;
 }
 
-.font-kd-200 {
+.font-kd-200 {  
   font-size: 200px;
+  line-height: 160px;
 }
 
 .hidden {
@@ -173,16 +175,23 @@ body {
   transform: translateY(100px);
 }
 
+.letter-spacing-2{
+  letter-spacing: 2px;
+}
+
 
 @media screen and (max-width: 767px) {
   .font-kd-xs-100 {
     font-size: 100px;
+    line-height: 90px;
   }
   .font-kd-xs-60 {
     font-size: 60px;
+    line-height: 50px;
   }
   .font-kd-xs-45 {
     font-size: 45px;
+    line-height: 40px;
   }
   .font-kd-xs-25 {
     font-size: 25px;

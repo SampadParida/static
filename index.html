@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
         <div class="container">
             <!-- Logo -->
-            <a class="navbar-brand font-kd-bold animatable" href="#">
+            <a href="#intro" class="navbar-brand font-kd-bold animatable" href="#">
                 KHUSHAL DESIGNS
             </a>
 
@@ -43,13 +43,13 @@
                         <a class="nav-link animatable" href="#portfolio">PORTFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link animatable  active" href="#packages">HIRE ME</a>
+                        <a class="nav-link animatable active" href="#hire-me">HIRE ME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link animatable" href="#books">CLIENTS</a>
+                        <a class="nav-link animatable" href="#">CLIENTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link animatable" href="#contact">ABOUT</a>
+                        <a class="nav-link animatable" href="#about">ABOUT</a>
                     </li>
                 </ul>
             </div>
@@ -105,7 +105,7 @@
         </div>
     </section> -->
     <div class="main-container">
-        <section id="sectionA">
+        <section id="intro">
             <div class="container font-kd text-center">
                 <div class="row">
                     <div class="col-12">
@@ -131,10 +131,10 @@
                 </div>
             </div>
         </section>
-        <section id="section1">
+        <section id="about">
             <div class="container font-kd text-center">
                 <div class="row">
-                    <div class="col-12 mb-5 pb-5">
+                    <div class="col-12">
                         <p class=" animatable">
                             I'm a seasoned graphic and motion designer with a passion for crafting compelling brand
                             identities. With over 5 years of experience, I've collaborated with influential
@@ -169,14 +169,14 @@
         <section id="section3">
             <div>
                 <div class="mb-5 pb-5">
-                    <h1 class="font-kd-2 font-kd-60 font-kd-xs-45 text-center animatable"><span
+                    <h1 class="font-kd-2 font-kd-60 font-kd-xs-45 text-center animatable letter-spacing-2"><span
                             class="text-blue">KHUSHAL'S CREATIVITY
                             & PRECISION</span><br><i>SURPASSED OUR EXPECTIONS!</i></h1>
                     <p class="font-kd font-kd-xs-25 text-center animatable">MANOJ GUPTA, MD & EXECCOM MEMBER, QUALITEST
                     </p>
                 </div>
                 <div class="mt-5">
-                    <h1 class="font-kd-2 font-kd-60 font-kd-xs-45 text-center animatable"><span class="text-blue">THE
+                    <h1 class="font-kd-2 font-kd-60 font-kd-xs-45 text-center animatable letter-spacing-2"><span class="text-blue">THE
                             DESIGN
                             ENCAPSULATE OUR BRAND ESSENCE</span><br><i>AND DEEPLY ENGAGE OUR AUDIENCE!</i></h1>
                     <p class="font-kd font-kd-xs-25 text-center animatable">CHATTANATHAN DEVARAJAN, CO FOUNDER, ARYA.AG
@@ -222,13 +222,13 @@
                 </div>
             </div>
         </section>
-        <section id="section5">
+        <section id="hire-me">
             <div class="w-100">
                 <div style="height: 50vh;" class="d-flex justify-content-center align-items-center">
                     <div>
-                        <p class="font-kd text-center animatable">LOVE TO TALK</p>
-                        <h1 class="font-kd-2 font-kd-100 font-kd-xs-25 text-center animatable">KHUSHALDESIGNS<span
-                                class="font-kd">@</span>GMAIL.COM
+                        <p class="font-kd text-center animatable mb-0">LOVE TO TALK</p>
+                        <h1 class="font-kd-2 font-kd-100 font-kd-xs-45 text-center animatable d-flex align-items-center letter-spacing-2">KHUSHALDESIGNS<span
+                                class="font-kd font-kd-60 font-kd-xs-25">@</span>GMAIL.COM
                         </h1>
                     </div>
                 </div>
@@ -236,7 +236,7 @@
 
                     <div class="d-block d-sm-flex justify-content-center align-items-center">
                         <p
-                            class="font-kd-2 font-kd-60 text-center animatabl p-3 d-flex justify-content-center align-items-center">
+                            class="font-kd-2 font-kd-60 text-center animatabl p-3 d-flex justify-content-center align-items-center letter-spacing-2">
                             KHUSHALDESIGNS
                             &nbsp;
                             <span>
@@ -248,7 +248,7 @@
                             </span>
                         </p>
                         <p
-                            class="font-kd-2 font-kd-60 text-center animatabl p-3 d-flex justify-content-center align-items-center">
+                            class="font-kd-2 font-kd-60 text-center animatabl p-3 d-flex justify-content-center align-items-center letter-spacing-2">
                             KHUSHAL JAISWANI
                             &nbsp;
                             <span>
@@ -288,17 +288,17 @@
     <!-- <script src="https://vcmtmq.csb.app/index.js"></script> -->
 
     <script>
-        $(document).ready(function () {
-            $('a[href^="#"]').on('click', function (event) {
-                var target = $(this.getAttribute('href'));
-                if (target.length) {
-                    event.preventDefault();
-                    $('.main-container').stop().animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                }
-            });
-        });
+        // $(document).ready(function () {
+        //     $('a[href^="#"]').on('click', function (event) {
+        //         var target = $(this.getAttribute('href'));
+        //         if (target.length) {
+        //             event.preventDefault();
+        //             $('.main-container').stop().animate({
+        //                 scrollTop: target.offset().top
+        //             }, 1000);
+        //         }
+        //     });
+        // });
         document.addEventListener("DOMContentLoaded", function () {
             const animatableElems = document.querySelectorAll(".animatable");
             animatableElems.forEach(element => {
