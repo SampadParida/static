@@ -72,7 +72,16 @@
 .text-blue {
   color: var(--kd-blue)
 }
+.bg-blue {  
+  background-color: var(--kd-blue)
+}
+.border-blue{
+  border-color: var(--kd-blue) !important;
+}
 
+.cursor-pointer{
+  cursor: pointer;
+}
 
 body,
 html {
@@ -148,12 +157,21 @@ body {
   left: 0px;
 }
 
+.font-kd-25 {
+  font-size: 25px;
+}
+
 .font-kd-50 {
   font-size: 50px;
 }
 
 .font-kd-60 {
   font-size: 60px;
+}
+
+.font-kd-70 {
+  font-size: 70px;
+  line-height: 65px;
 }
 
 .font-kd-100 {
@@ -166,6 +184,9 @@ body {
   line-height: 160px;
 }
 
+.h-200{
+  height: 20rem;
+}
 .hidden {
   visibility: hidden;
 }

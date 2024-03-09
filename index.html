@@ -20,11 +20,6 @@
                 KHUSHAL DESIGNS
             </a>
 
-            <!-- Navbar Toggle Button -->
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
             <button class="navbar-toggler animatable" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -36,19 +31,19 @@
             </div>
             <div class="collapse navbar-collapse" style="justify-content: end;" id="navbarNav">
                 <ul class="navbar-nav nav">
-                    <li class="nav-item">
+                    <li class="nav-item animatable">
                         <a class="nav-link animatable" href="#youtube">YOUTUBE</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item animatable">
                         <a class="nav-link animatable" href="#portfolio">PORTFOLIO</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link animatable active" href="#hire-me">HIRE ME</a>
+                    <li class="nav-item border border-blue border-2 animatable">
+                        <a class="nav-link animatable active hire-me-control cursor-pointer"><b>HIRE ME</b></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item animatable">
                         <a class="nav-link animatable" href="#clients">CLIENTS</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item animatable">
                         <a class="nav-link animatable" href="#about">ABOUT</a>
                     </li>
                 </ul>
@@ -56,54 +51,20 @@
         </div>
     </nav>
 
-    <!-- <section id="section0" class="bg-white">
-
-        <div class="content" id="hero-container">
-            <div>
-                <div class="wrapper">
-                    <div>
-                        <div style="display: flex; justify-content: center;" class="font-kd">
-                            <div class="box" data-scroll-speed="1">M</div>
-                            <div class="box" data-scroll-speed="3">E</div>
-                            <div class="box" data-scroll-speed="2">E</div>
-                            <div class="box" data-scroll-speed="1">T</div>
-                            <div class="box" data-scroll-speed="2">&nbsp;&nbsp;</div>
-                            <div class="box" data-scroll-speed="1">K</div>
-                            <div class="box" data-scroll-speed="2">U</div>
-                            <div class="box" data-scroll-speed="3">S</div>
-                            <div class="box" data-scroll-speed="1">H</div>
-                            <div class="box" data-scroll-speed="2">A</div>
-                            <div class="box" data-scroll-speed="1">L</div>
-                            <div class="box" data-scroll-speed="2">&nbsp;&nbsp;</div>
-                            <div class="box" data-scroll-speed="1">J</div>
-                            <div class="box" data-scroll-speed="2">A</div>
-                            <div class="box" data-scroll-speed="3">I</div>
-                            <div class="box" data-scroll-speed="1">S</div>
-                            <div class="box" data-scroll-speed="2">W</div>
-                            <div class="box" data-scroll-speed="3">A</div>
-                            <div class="box" data-scroll-speed="1">N</div>
-                            <div class="box" data-scroll-speed="2">I</div>
-                        </div>
-                        <div style="display: flex; justify-content: center; color:#0000c5" class="font-kd-bold">
-                            <div class="box font-kd-100" data-scroll-speed="2">T</div>
-                            <div class="box font-kd-100" data-scroll-speed="3">H</div>
-                            <div class="box font-kd-100" data-scroll-speed="2">E</div>
-                            <div class="box font-kd-100" data-scroll-speed="2">&nbsp;&nbsp;</div>
-                            <div class="box font-kd-100" data-scroll-speed="1">D</div>
-                            <div class="box font-kd-100" data-scroll-speed="1">E</div>
-                            <div class="box font-kd-100" data-scroll-speed="2">S</div>
-                            <div class="box font-kd-100" data-scroll-speed="1">I</div>
-                            <div class="box font-kd-100" data-scroll-speed="2">G</div>
-                            <div class="box font-kd-100" data-scroll-speed="1">N</div>
-                            <div class="box font-kd-100" data-scroll-speed="2">E</div>
-                            <div class="box font-kd-100" data-scroll-speed="3">R</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <img src="assets/images/hero-profile.png" width="600" style="opacity: 0;" id="hero-image" />
+    <!-- HIRE ME FORM -->
+    <div id="hire-form" class="w-100 h-100 d-flex justify-content-center align-items-center position-fixed fixed-top" style="transform-style: preserve-3d;transform: rotateY(90deg);">
+        <div class="bg-white shadow p-5 border border-2" style="max-width: 400px;">
+            <h1 class="font-kd-bold text-center text-blue mb-4">INBOX ME!</h1>
+            <form>
+                <input type="text" class="border border-2 w-100 p-2 mb-3" placeholder="Name" >
+                <input type="email" class="border border-2 w-100 p-2 mb-3" placeholder="Email" >
+                <textarea rows="3" class="border border-2 w-100 p-2 mb-3" placeholder="Message" ></textarea>
+                <input type="submit" class="border w-100 bg-white text-blue font-kd-bold border-blue border-2 p-2 mb-3" value="SUBMIT" />
+            </form>
+            <div id="hide-form" class="p-2 border text-center font-kd cursor-pointer">CLOSE</div>
         </div>
-    </section> -->
+    </div>
+
     <div class="main-container">
         <section id="intro">
             <div class="container font-kd text-center">
@@ -158,9 +119,9 @@
                     <div class="col-12 col-sm-6">
                         <h1 class="font-kd-2 font-kd-100 text-center text-white animatable">PORTFOLIO</h1>
                     </div>
-                    <div class="col-12 col-sm-6 text-center">
+                    <div class="col-12 col-sm-6 text-center p-5">
                         <video id="folder-video" src="assets/images/folder-animation.mp4" muted controls="false"
-                            autoplay class="w-100">
+                            autoplay class="w-100 m-5 p-5">
                             <!-- <img src="assets/images/02.png" class="animatable d-block w-100" style="margin: 0 auto;" /> -->
                     </div>
                 </div>
@@ -169,31 +130,31 @@
         <section id="clients">
             <div>
                 <div class="mb-5 pb-5">
-                    <h1 class="font-kd-2 font-kd-60 font-kd-xs-45 text-center animatable letter-spacing-2"><span
+                    <h1 class="font-kd-2 font-kd-70 font-kd-xs-45 text-center animatable letter-spacing-2 mb-3"><span
                             class="text-blue">KHUSHAL'S CREATIVITY
                             & PRECISION</span><br><i>SURPASSED OUR EXPECTIONS!</i></h1>
-                    <p class="font-kd font-kd-xs-25 text-center animatable">MANOJ GUPTA, MD & EXECCOM MEMBER, QUALITEST
+                    <p class="font-kd font-kd-25 text-center animatable">MANOJ GUPTA, MD & EXECCOM MEMBER, QUALITEST
                     </p>
                 </div>
                 <div class="mt-5">
-                    <h1 class="font-kd-2 font-kd-60 font-kd-xs-45 text-center animatable letter-spacing-2"><span class="text-blue">THE
+                    <h1 class="font-kd-2 font-kd-70 font-kd-xs-45 text-center animatable letter-spacing-2 mb-3"><span class="text-blue">THE
                             DESIGN
                             ENCAPSULATE OUR BRAND ESSENCE</span><br><i>AND DEEPLY ENGAGE OUR AUDIENCE!</i></h1>
-                    <p class="font-kd font-kd-xs-25 text-center animatable">CHATTANATHAN DEVARAJAN, CO FOUNDER, ARYA.AG
+                    <p class="font-kd font-kd-25 text-center animatable">CHATTANATHAN DEVARAJAN, CO FOUNDER, ARYA.AG
                     </p>
                 </div>
             </div>
         </section>
         <section id="youtube"
             style="background-image: url('assets/images/kd-portfolio-bg.png'); background-size: cover; background-repeat: no-repeat;">
-            <div>
+            <div class="container-fluid">
                 <h1 class="font-kd-2 font-kd-100 text-center text-white animatable">YOUTUBE VIDEOS</h1>
                 <br>
-                <div class="container-fluid animatable">
+                <div class="animatable">
                     <div class="row">
                         <div class="col-12 col-sm-4 mb-3">
                             <div class="">
-                                <iframe class="w-100"
+                                <iframe class="w-100 h-200"
                                     src="https://www.youtube.com/embed/e_dv7GBHka8?si=5T6vrRc1r4E8IzaZ"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -202,7 +163,7 @@
                         </div>
                         <div class="col-12 col-sm-4 mb-3">
                             <div class="">
-                                <iframe class="w-100"
+                                <iframe class="w-100 h-200"
                                     src="https://www.youtube.com/embed/e_dv7GBHka8?si=5T6vrRc1r4E8IzaZ"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -211,7 +172,7 @@
                         </div>
                         <div class="col-12 col-sm-4 mb-3">
                             <div class="">
-                                <iframe class="w-100"
+                                <iframe class="w-100 h-200"
                                     src="https://www.youtube.com/embed/e_dv7GBHka8?si=5T6vrRc1r4E8IzaZ"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -228,7 +189,7 @@
                     <div>
                         <p class="font-kd text-center animatable mb-0">LOVE TO TALK</p>
                         <h1 class="font-kd-2 font-kd-100 font-kd-xs-45 text-center animatable d-flex align-items-center letter-spacing-2">KHUSHALDESIGNS<span
-                                class="font-kd font-kd-60 font-kd-xs-25">@</span>GMAIL.COM
+                                class="font-kd font-kd-70 font-kd-xs-25">@</span>GMAIL.COM
                         </h1>
                     </div>
                 </div>
@@ -236,7 +197,7 @@
 
                     <div class="d-block d-sm-flex justify-content-center align-items-center">
                         <p
-                            class="font-kd-2 font-kd-60 text-center animatabl p-3 d-flex justify-content-center align-items-center letter-spacing-2">
+                            class="font-kd-2 font-kd-70 text-center animatabl p-3 d-flex justify-content-center align-items-center letter-spacing-2">
                             KHUSHALDESIGNS
                             &nbsp;
                             <span>
@@ -248,7 +209,7 @@
                             </span>
                         </p>
                         <p
-                            class="font-kd-2 font-kd-60 text-center animatabl p-3 d-flex justify-content-center align-items-center letter-spacing-2">
+                            class="font-kd-2 font-kd-70 text-center animatabl p-3 d-flex justify-content-center align-items-center letter-spacing-2">
                             KHUSHAL JAISWANI
                             &nbsp;
                             <span>
@@ -318,6 +279,23 @@
                     { y: 0, opacity: 1, duration: 1, ease: "power2.out" }
                 );
             });
+
+            const hireFormElem = document.getElementById('hire-form');
+            const hideFormElem = document.getElementById('hide-form');
+            const hireFormTl = gsap.timeline({reversed: true});
+            hireFormTl.to(hireFormElem, {
+                rotationY: 0, duration: 1, ease: "power2.out"
+            })
+            const hireMeControl = document.querySelector('.hire-me-control');
+            hireMeControl.addEventListener("click", function(){
+                hireFormTl.reversed(!hireFormTl.reversed)
+                console.log('hireFormTl reversed:', hireFormTl.reversed());
+            })
+            hideFormElem.addEventListener("click", function(event){
+                if (!hireFormTl.reversed()) {
+                    hireFormTl.reversed(true);
+                }
+            })
         });
     </script>
     <script>
